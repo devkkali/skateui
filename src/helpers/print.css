@@ -1,0 +1,23 @@
+.print * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+}
+/* 
+@page {
+  size: 21cm 29.7cm;
+} */
+
+.qr {
+  display: inline-block;
+  break-inside: avoid;
+  margin: 10pt;
+}
+.qr-container {
+  position: relative;
+  display: table;
+}
+.qr p {
+  font-size: 10pt;
+}
